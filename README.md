@@ -4,22 +4,22 @@ This API allows you to convert values between currencies using the public servic
   
 ### Simple usage
 
-```
+```javascript
 const { convertRate } = require('bacen-converter');
 
-// After promise is resolved it will print the 1000 BRL converted to USD
+// After resolved prints the 1000 BRL converted to USD with today's rate
 convertRate(1000.0, 'USD', 'BRL').then(console.log);
 ```
 
-Also you can opt to inform which day you want to get the rating value from as described in the example below.
+You can also specify a date and the API will use it's rate as below.
 
-```
+```javascript
 const { convertRate } = require('bacen-converter');
 
-// After resolved it will print the value converted using rate of day 2021-07-03
+// Prints the value converted USD to BRL using rate of day 2021-07-03
 convertRate(1000.0, 'USD', 'BRL', '2021-07-03').then(console.log);
 ```
 
-### Contributing
+### Donation
 
-If you want to contribute and thanks the author, donate using PayPal to e-mail pitter@meza.digital. Any value is appreciated. Hope you make a great use of this open-source project.
+If you want to contribute to author, donate using PayPal to e-mail pitter@meza.digital. Any value is appreciated. Hope you find this project useful. :-)
