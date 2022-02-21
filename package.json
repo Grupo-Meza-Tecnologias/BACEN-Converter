@@ -1,6 +1,6 @@
 {
   "name": "bacen-converter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "API to convert currencies through BACEN - Banco Central of Brazil",
   "main": "index.js",
   "author": "Grupo Meza Tecnologias Ltda",
